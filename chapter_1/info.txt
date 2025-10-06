@@ -1,0 +1,21 @@
+Each API defines the following:
+- protocol (control structure)
+- format (content structure)
+
+RESTful:
+- Uses HTTP and client-server protocol
+- Stateless (each connection is independent)
+- Cacheable
+- Resource-based
+
+API Data Formats:
+- JSON
+- XML
+- SOAP
+
+Common WEB application layers:
+- Service (The business logic, which calls the Data layer when needed)
+- Data (Access to data stores and other services)
+- Model (Data definitions shared by all layers)
+- Web Client (Web browser or other HTTP client-side software)
+- Database (The data store, often an SQL or NoSQL server)
