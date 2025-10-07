@@ -1,0 +1,9 @@
+Python Package Management Tools:
+- pip
+- poetry
+- uv
+
+Python Web Frmeworks
+- Django
+- Flask
+- FastAPI
