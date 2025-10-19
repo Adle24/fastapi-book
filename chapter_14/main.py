@@ -16,4 +16,3 @@ def prompt(line: str) -> str:
     outputs = model.generate(**tokens, generator_config=config)
     result = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
     return result
-
